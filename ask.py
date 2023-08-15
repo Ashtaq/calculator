@@ -28,7 +28,7 @@ scvalue.set("")
 screen = Entry(root, textvariable=scvalue, font="lucida 40 bold")
 screen.pack(fill=X, ipadx=8, pady=10, padx=10)
 
-f = Frame(root, bg="grey")
+f = Frame(root, bg="black")
 b = Button(f, text="9", padx=15, pady=10, font="lucida 35 bold")
 b.pack(side=LEFT, padx=5, pady=5)
 b.bind("<Button-1>", click)
@@ -43,7 +43,7 @@ b.bind("<Button-1>", click)
 
 f.pack()
 
-f = Frame(root, bg="grey")
+f = Frame(root, bg="black")
 b = Button(f, text="6", padx=15, pady=10, font="lucida 35 bold")
 b.pack(side=LEFT, padx=5, pady=5)
 b.bind("<Button-1>", click)
@@ -58,7 +58,7 @@ b.bind("<Button-1>", click)
 
 f.pack()
 
-f = Frame(root, bg="grey")
+f = Frame(root, bg="black")
 b = Button(f, text="3", padx=15, pady=10, font="lucida 35 bold")
 b.pack(side=LEFT, padx=5, pady=5)
 b.bind("<Button-1>", click)
@@ -73,7 +73,7 @@ b.bind("<Button-1>", click)
 
 f.pack()
 
-f = Frame(root, bg="grey")
+f = Frame(root, bg="black")
 b = Button(f, text="0", padx=15, pady=10, font="lucida 35 bold")
 b.pack(side=LEFT, padx=5, pady=5)
 b.bind("<Button-1>", click)
@@ -88,7 +88,7 @@ b.bind("<Button-1>", click)
 
 f.pack()
 
-f = Frame(root, bg="grey")
+f = Frame(root, bg="black")
 b = Button(f, text="*", padx=15, pady=10, font="lucida 35 bold")
 b.pack(side=LEFT, padx=5, pady=5)
 b.bind("<Button-1>", click)
@@ -104,7 +104,7 @@ b.bind("<Button-1>", click)
 f.pack()
 
 
-f = Frame(root, bg="grey")
+f = Frame(root, bg="black")
 b = Button(f, text="C", padx=15, pady=10, font="lucida 35 bold")
 b.pack(side=LEFT, padx=5, pady=5)
 b.bind("<Button-1>", click)
