@@ -23,6 +23,6 @@ The calculator supports the following basic arithmetic operations:
 2. Substraction
 3. Multiplication
 4. Division
-
-##Contributing <a name = "Contributing"></a>
+   
+## Contributing <a name = "Contributing"></a>
 We welcome contributions from the community to make this calculator project even better. 
