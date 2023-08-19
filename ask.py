@@ -20,7 +20,7 @@ def click(event):
         screen.update()
 root = Tk()
 root.geometry("644x900")
-root.title("Calculator By Vikas Jonwal")
+root.title("Calculator By Ashmit Singh")
 
 
 scvalue = StringVar()
